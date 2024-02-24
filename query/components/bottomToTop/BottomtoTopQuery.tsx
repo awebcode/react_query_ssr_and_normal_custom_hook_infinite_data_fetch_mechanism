@@ -29,7 +29,7 @@ const BottomtoTopQuery = () => {
   const posts = data?.pages.flatMap((p) => p.posts) || [];
   return (
     <div>
-       <h1 className="text-center text-5xl p-6">RQ/BOTTOM TO TOP FETCHINH</h1>
+       <h1 className="text-center text-5xl p-6">RQ/BOTTOM TO TOP FETCHING</h1>
       {isLoading && <h1 className="text-center text-2xl p-6">Loading fetchData....</h1>}
       {isFetching && <h1 className="text-center text-2xl p-4">Fetching fetchData....</h1>}
       <div
